@@ -131,6 +131,8 @@ class BezierCurve:
         self.canvas.pack(expand=tk.YES, fill=tk.BOTH)
         
         # Points
+        #self.points = [(500, 200), (500, 500)]
+        #self.points = [(500, 200), (500, 500), (700, 200)]
         self.points = [(500, 200), (500, 500), (700, 200), (700, 500)]
         self.point_id = []
         
